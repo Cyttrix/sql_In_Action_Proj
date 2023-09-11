@@ -9,12 +9,14 @@
 -- <<<<<<<<<<<<<<<<<<<<<< PROBLEM 1 >>>>>>>>>>>>>>>>>>>>>>>
 -- Find out how many rows are in the table "final_airbnb"
 -- EXPECTED OUTPUT: 146
+SELECT COUNT(*) FROM final_airbnb;
 
 
 -- <<<<<<<<<<<<<<<<<<<<<< PROBLEM 2 >>>>>>>>>>>>>>>>>>>>>>>
 -- Find out the name of the host for "host_id" 63613
 -- HINT: "Where" could it be?
-
+SELECT * FROM final_airbnb
+WHERE host_id = 63613;
 -- EXPECTED OUTPUT: Patricia
 
 
